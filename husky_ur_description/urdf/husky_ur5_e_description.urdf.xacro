@@ -9,5 +9,5 @@
     <origin xyz="$(optenv HUSKY_UR_XYZ -0.105 0.0 0.0)" rpy="$(optenv HUSKY_UR_RPY 0 0 3.1415927)"/>
   </joint>
 
-  <xacro:ur5e_robot prefix="ur_arm_" />
+  <xacro:ur5e_robot prefix="ur_arm_"/>
 </robot>
